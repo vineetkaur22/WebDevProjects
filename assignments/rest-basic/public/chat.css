@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, #57c1eb 0%,#246fa8 100%);
+  font-size: 11px;
+  height:100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  min-height:100%;
+}
+
+button {
+  width: 100px;
+  height: 25px;
+  border-radius: 10px;
+  background-color: aliceblue;
+
+}
+
+.login-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: -webkit-fill-available;
+}
+
+.login-box {
+  height: 180px;
+  width: 300px;
+  background-color: white;
+}
+
+.login-box input{
+  height: 25px;
+  width: 100%;
+}
+
+.login-box span{
+  color:red;
+}
+
+.login-box div{
+  margin: 20px 10px;
+}
+
+
+#chat-app{
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  min-height: 400px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background: #FFF;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.horizontal-container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+
+#title {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
+
+.simple-button{
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+#side-bar {
+  background: #0048AA;
+  border-radius: 10px 0 0 10px;
+  width: 30%;
+  height: 500px;
+}
+
+#chat-window {
+  border-radius: 0 10px 10px 0;
+  background-color: aliceblue;
+  height: 500px;
+  width: 70%;
+  overflow-y: scroll;
+}
+
+#users li
+{
+  background: #0092AB;
+  margin-bottom : 1px;
+  list-style-type:none;
+}
+
+.user {
+  padding-bottom: 10px;
+}
+
+.user-icon-div {
+  display: inline-block;
+  margin-top: 12px;
+  vertical-align: -14px;
+}
+
+.user-icon {
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.messagelist-username, .userlist-username{
+  padding: 13px;
+}
+
+.userlist-username:hover{
+  cursor: pointer;
+  color: blue; 
+}
+
+.chat-container {
+  margin-top: 25px;
+  display: table;
+  padding:5px;
+  border-width: 10px;
+}
+
+.error-message{
+  color : red;
+  width: 500px;
+  margin: 10px 10px;
+}
+
+.chat-cell{
+  display: table-cell;
+  width:40px;
+}
+
+.chat-cell-text {
+  display: table-cell;
+  border-radius: 40px;
+  background-color: lightgrey;
+  padding: 10px;
+}
+
+.friend {
+  padding-right: 10px;
+  float: right;
+}
+
+#outgoing input {
+  width: 80%;
+  padding: 20px;
+  height: 30px;
+  border-radius: 25px;
+  border: none;
+}
+
+#submit-button{
+  margin-top: 20px;
+  width: 100%;
+}
+
+.timestamp {
+  color: darkcyan;
+  display: grid;
+  padding-top: inherit;
+  float: right;
+}
+
+.timestamp-sidebar {
+  display: inline;
+  float: right;
+  margin-top: 25px;
+  margin-right: 10px;
+}
+
+.messages{
+  list-style-type:none;
+}
+
+.to-send{
+  outline: none;
+}
+
+@media(max-width: 600px){
+  .timestamp-sidebar {
+    display: none;
+  }
+}

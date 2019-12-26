@@ -1,0 +1,20 @@
+{
+  "name": "rest-advanced",
+  "version": "1.0.0",
+  "description": "* start from the up-to-date master branch (`git checkout master; git pull origin master`) * Create a feature branch named 'rest-basic' (`git checkout -b rest-advanced`) * Add files as required * add, commit, and push the branch to github * Create a PR to merge to master * Be sure to include the reviewer(s).   * Due by 11:59pm Tue Nov 5th",
+  "main": "chat-web.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

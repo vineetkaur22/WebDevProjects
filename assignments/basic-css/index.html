@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chat</title>
+    <link rel="stylesheet" type="text/css" href="chat.css">
+  </head>
+  <body>
+    <div id="chat-app">
+
+      <div id="side-bar">
+        <div>
+          <ul id="users">
+            <li>
+              <div class="user">
+                <div class="user-icon-div">
+                <img class="user-icon" src="images/avatar-amit.jpg">
+                </div>
+                <span class="username">Amit</span>
+                <span class="timestamp-sidebar">18:45:32</span>
+              </div>
+            </li>
+            <li>
+              <div class="user">
+                <div class="user-icon-div">
+                <img class="user-icon" src="images/avatar-bao.jpg">
+                </div>
+                <span class="username">Bao</span>
+                <span class="timestamp-sidebar">18:46:32</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="chat-window">
+        <ol class="messages">        
+        <li>
+          <div class="chat-span">
+            <div class="chat-cell">
+              <img class="user-icon" src="images/avatar-amit.jpg">
+            </div>
+            <div class="chat-cell-text">
+              <span>You up?</span>
+              <span class="timestamp">18:45:32</span>
+            </div>
+          </div>
+          </li>
+          <li>
+          <div class="chat-span friend">
+            <div class="chat-cell">
+                <img class="user-icon" src="images/avatar-bao.jpg">
+            </div>
+            <div class="chat-cell-text friend">
+              <span>Yeah, still working on this INFO6250 work, but I keep getting distracted by cat videos
+              </span>
+              <span class="timestamp">18:46:32</span>
+            </div>
+          </div>
+          </li>
+        </ol>
+      </div>
+
+      <div id="outgoing">
+          <form action="/chat">
+            <input class="to-send" value="" placeholder="Enter message to send"/>
+            <button type="submit">Send</button>
+          </form>
+      </div>
+    </div>
+  </body>
+</html>

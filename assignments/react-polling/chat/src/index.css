@@ -1,0 +1,47 @@
+/*ody {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    bmonospace;
+}*/
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, #57c1eb 0%,#246fa8 100%);
+  font-size: 11px;
+  height:100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  min-height:100%;
+}
+
+.chat-container {
+  margin-top: 25px;
+  display: table;
+  padding:5px;
+  border-width: 10px;
+}
+
+.messagelist-username, .userlist-username{
+  padding: 13px;
+}
+

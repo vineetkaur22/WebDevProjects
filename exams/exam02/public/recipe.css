@@ -1,0 +1,93 @@
+body{
+	background: #99bcffb5;
+}
+
+h1{
+	text-align: center;
+	color: #ff9999;
+	background: beige;
+}
+
+.recipe-name-link{
+	background: none;
+	border: none;
+	padding: 0;
+	font-family: arial;
+	color: #069;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.top-bar-link {
+	background: none;
+	border: none;
+	padding: 0;
+	font-family: arial;
+	color: #069;
+	text-decoration: underline;
+	cursor: pointer;
+	font-size: 15;
+}
+
+.homepage-content{
+	display: flex;
+	width: -webkit-fill-available;
+	height: -webkit-fill-available;
+	flex-direction: column;
+	margin: 50px;
+	border: lightyellow;
+	border-style: double;
+}
+
+.homepage-content div{
+	padding: 10px;
+}
+
+.recipedetail-description{
+	align-self: center;
+	padding: 40px;
+	display: flex;
+	flex-direction: column;
+	background-color: lightyellow;
+	border: 2px solid coral;
+	width: 500px;
+	height: 500px;
+	overflow: auto;
+}
+
+.recipe-list{
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+}
+
+.recipe-list div {
+	width: 100px;
+	height: 100px;
+}
+
+.newrecipe-data{
+	padding-top: 20px;
+	display: flex;
+	flex-direction: column;
+	width: 300px;	
+	align-self: center;	
+}
+
+.newrecipe-title{
+	width: -webkit-fill-available;
+	height: 30px;
+	text-align: center;
+	border: 1px black lightyellow;
+}
+
+.error-message{
+	color: red;
+}
+
+@media(max-width: 800px){
+	.homepage-content {
+	width: 600px;
+	}
+}
+

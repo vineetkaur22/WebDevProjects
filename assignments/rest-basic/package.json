@@ -1,0 +1,15 @@
+{
+  "name": "rest-basic",
+  "version": "1.0.0",
+  "description": "* start from the up-to-date master branch (`git checkout master; git pull origin master`) * Create a feature branch named 'rest-basic' (`git checkout -b rest-basic`) * Add files as required * add, commit, and push the branch to github * Create a PR to merge to master * Be sure to include the reviewer(s).   * Due by 11:59pm Tue Oct 29th",
+  "main": "chat-web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
